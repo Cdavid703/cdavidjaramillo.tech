@@ -102,7 +102,7 @@ export default function Hero() {
           </div>
 
           {/* ── Right — Photo ── */}
-          <div className="delay-2 flex justify-center md:justify-end">
+          <div className="delay-2 flex justify-center">
             <div className="relative">
               {/* Glow ring behind photo */}
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-[#00d4ff]/20 to-[#7c3aed]/20 blur-2xl scale-110" />

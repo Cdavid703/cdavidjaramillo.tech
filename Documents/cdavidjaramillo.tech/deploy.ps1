@@ -1,3 +1,4 @@
+$env:PATH  = "C:\Users\USER\AppData\Local\node-portable;$env:PATH"
 $npm    = "C:\Users\USER\AppData\Local\node-portable\npm.cmd"
 $key    = "$env:USERPROFILE\.ssh\id_ed25519"
 $vps    = "root@177.7.52.161"
