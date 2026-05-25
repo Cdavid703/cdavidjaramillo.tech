@@ -2,11 +2,15 @@
 import { useState, useEffect } from 'react'
 
 const links = [
-  { label: 'About',    href: '#about'    },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Stack',    href: '#stack'    },
-  { label: 'Contact',  href: '#contact'  },
+  { label: 'About',    href: 'about'    },
+  { label: 'Projects', href: 'projects' },
+  { label: 'Stack',    href: 'stack'    },
+  { label: 'Contact',  href: 'contact'  },
 ]
+
+function scrollTo(id: string) {
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+}
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -24,26 +28,27 @@ export default function Navbar() {
     }`}>
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="font-bold text-lg tracking-tight">
+        <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          className="font-bold text-lg tracking-tight">
           <span className="gradient-text">cdj</span>
           <span className="text-[#6b7280]">.tech</span>
-        </a>
+        </button>
 
         {/* Desktop links */}
         <ul className="hidden md:flex items-center gap-8">
           {links.map(l => (
             <li key={l.href}>
-              <a href={l.href}
+              <button onClick={() => scrollTo(l.href)}
                 className="text-sm text-[#6b7280] hover:text-white transition-colors">
                 {l.label}
-              </a>
+              </button>
             </li>
           ))}
           <li>
-            <a href="#contact"
+            <button onClick={() => scrollTo('contact')}
               className="text-sm px-4 py-2 rounded-lg border border-[#00d4ff]/40 text-[#00d4ff] hover:bg-[#00d4ff]/10 transition-colors">
               Hire me
-            </a>
+            </button>
           </li>
         </ul>
 
@@ -62,10 +67,10 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden bg-[#111111] border-t border-[#1e1e1e] px-6 py-4 flex flex-col gap-4">
           {links.map(l => (
-            <a key={l.href} href={l.href} onClick={() => setOpen(false)}
-              className="text-sm text-[#6b7280] hover:text-white transition-colors py-1">
+            <button key={l.href} onClick={() => { scrollTo(l.href); setOpen(false) }}
+              className="text-sm text-[#6b7280] hover:text-white transition-colors py-1 text-left">
               {l.label}
-            </a>
+            </button>
           ))}
         </div>
       )}

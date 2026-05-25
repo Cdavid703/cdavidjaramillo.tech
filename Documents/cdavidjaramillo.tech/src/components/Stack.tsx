@@ -29,7 +29,7 @@ const categories = [
     label: 'Data & Enterprise',
     color: '#f59e0b',
     items: [
-      { name: 'SAP',      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sap/sap-original.svg' },
+      { name: 'SAP',      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sap/sap-original.svg' },
       { name: 'Power BI', icon: 'https://img.icons8.com/color/48/power-bi.png' },
       { name: 'Excel',    icon: 'https://img.icons8.com/color/48/microsoft-excel-2019.png' },
       { name: 'VBA',      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualbasic/visualbasic-original.svg' },

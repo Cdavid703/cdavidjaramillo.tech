@@ -20,21 +20,25 @@ export default function About() {
           </h2>
           <div className="space-y-4 text-[#9ca3af] leading-relaxed">
             <p>
-              I&apos;m an <span className="text-white font-medium">Industrial Engineer</span> with over 15 years
-              of experience in logistics, financial operations, and enterprise automation.
-              But I&apos;m also the person who goes home and builds the software.
+              <span className="text-white font-medium">Industrial Engineer</span> with 15+ years inside
+              enterprise operations — logistics, supply chain, and financial control at companies
+              like <span className="text-white font-medium">Holcim/Amrize</span>. At some point I stopped
+              waiting for IT to build what the business needed and started building it myself.
             </p>
             <p>
-              At Holcim/Amrize I engineer <span className="text-white font-medium">C# and Python integrations
-              with SAP</span> that eliminate reconciliation workflows entirely.
-              On the side, I build real production apps — a delivery platform running live
-              in Medellín, a corporate site for a 100+ member musical organization,
-              and a language learning platform used by real students.
+              On the enterprise side I design and code{' '}
+              <span className="text-white font-medium">SAP integrations in C# and Python</span>,
+              financial reconciliation pipelines, <span className="text-white font-medium">Power BI</span>{' '}
+              dashboards, and VBA automation that eliminates hundreds of manual hours per month.
+              I work directly with CFOs, controllers, and ops directors — I speak their language
+              and deliver in code.
             </p>
             <p>
-              My edge: when a CFO describes a financial problem,
-              I understand every word —&nbsp;
-              <span className="text-white font-medium">and then I write the code that fixes it.</span>
+              On the product side I build and ship full-stack apps solo:{' '}
+              <span className="text-white font-medium">React, Next.js, Firebase, TypeScript</span> —
+              a real-time delivery PWA live in Medellín, a language learning platform,
+              and a corporate site for a 100+ member organization.
+              Not prototypes. Real users, real data, real uptime.
             </p>
           </div>
 
