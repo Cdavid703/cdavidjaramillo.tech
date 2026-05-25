@@ -11,12 +11,16 @@ export const translations = {
       cta1: 'Ver Proyectos', cta2: 'Contactar',
       stat1: 'Años exp.', stat2: 'Trabajo automatizado', stat3: 'Apps en prod.',
       scroll: 'Scroll',
+      langs: [
+        { code: 'fr', flag: '🇫🇷', name: 'Français', level: 'C1' },
+        { code: 'en', flag: '🇺🇸', name: 'English',  level: 'B2' },
+      ],
     },
     about: {
       tag: 'Sobre mí', title: 'Dos mundos que', titleAccent: 'raramente se encuentran',
       p1: '[b]Ingeniero Industrial[/b] con 15+ años dentro de la empresa — logística, cadena de suministro y control financiero en compañías como [b]Holcim/Amrize[/b]. En algún momento dejé de esperar que TI construyera lo que el negocio necesitaba y empecé a construirlo yo mismo.',
       p2: 'Del lado empresarial diseño y codifico [b]integraciones SAP en C# y Python[/b], pipelines de reconciliación financiera, dashboards [b]Power BI[/b] y automatización VBA que elimina cientos de horas manuales al mes. Trabajo con CFOs, controladores y directores — hablo su idioma y entrego en código.',
-      p3: 'Del lado del producto construyo apps full-stack en solitario: [b]React, Next.js, Firebase, TypeScript[/b] — una PWA de domicilios en vivo en Medellín, una plataforma de idiomas y un sitio corporativo para una organización de 100+ miembros. No son prototipos. Usuarios reales, datos reales, uptime real.',
+      p3: 'Del lado del producto construyo apps full-stack en solitario: [b]React, Next.js, Firebase, TypeScript[/b] — una PWA de domicilios en vivo en Medellín, una plataforma de idiomas y un sitio corporativo para una organización de 100+ miembros. No son prototipos. Usuarios reales, datos reales, uptime real. Hablo [b]francés C1[/b] e [b]inglés B2[/b], lo que me permite trabajar directamente con equipos y clientes internacionales.',
       cards: [
         { title: 'Automatización Empresarial', desc: 'Pipelines Python, C# y VBA integrados con SAP, reduciendo trabajo manual hasta un 90%.' },
         { title: 'Sistemas Financieros',       desc: 'Automatización de reconciliación end-to-end con 100% calidad de datos. Hablo el idioma del CFO.' },
@@ -63,12 +67,16 @@ export const translations = {
       cta1: 'View Projects', cta2: 'Get in touch',
       stat1: 'Years exp.', stat2: 'Work automated', stat3: 'Apps in prod.',
       scroll: 'Scroll',
+      langs: [
+        { code: 'fr', flag: '🇫🇷', name: 'Français', level: 'C1' },
+        { code: 'en', flag: '🇺🇸', name: 'English',  level: 'B2' },
+      ],
     },
     about: {
       tag: 'About me', title: 'Two worlds that', titleAccent: 'rarely meet',
       p1: '[b]Industrial Engineer[/b] with 15+ years inside the enterprise — logistics, supply chain, and financial control at companies like [b]Holcim/Amrize[/b]. At some point I stopped waiting for IT to build what the business needed and started building it myself.',
       p2: 'On the enterprise side I design and code [b]SAP integrations in C# and Python[/b], financial reconciliation pipelines, [b]Power BI[/b] dashboards, and VBA automation that eliminates hundreds of manual hours per month. I work directly with CFOs, controllers, and ops directors — I speak their language and deliver in code.',
-      p3: 'On the product side I build and ship full-stack apps solo: [b]React, Next.js, Firebase, TypeScript[/b] — a real-time delivery PWA live in Medellín, a language learning platform, and a corporate site for a 100+ member organization. Not prototypes. Real users, real data, real uptime.',
+      p3: 'On the product side I build and ship full-stack apps solo: [b]React, Next.js, Firebase, TypeScript[/b] — a real-time delivery PWA live in Medellín, a language learning platform, and a corporate site for a 100+ member organization. Not prototypes. Real users, real data, real uptime. I speak [b]French C1[/b] and [b]English B2[/b], which lets me work directly with international teams and clients.',
       cards: [
         { title: 'Enterprise Automation', desc: 'Python, C# & VBA pipelines integrated with SAP cutting manual work up to 90%.' },
         { title: 'Financial Systems',     desc: 'End-to-end reconciliation automation with 100% data quality. I speak the CFO language.' },
@@ -115,12 +123,16 @@ export const translations = {
       cta1: 'Voir les projets', cta2: 'Me contacter',
       stat1: 'Ans d\'exp.', stat2: 'Travail automatisé', stat3: 'Apps en prod.',
       scroll: 'Défiler',
+      langs: [
+        { code: 'fr', flag: '🇫🇷', name: 'Français', level: 'C1' },
+        { code: 'en', flag: '🇺🇸', name: 'English',  level: 'B2' },
+      ],
     },
     about: {
       tag: 'À propos', title: 'Deux mondes qui', titleAccent: 'se rencontrent rarement',
       p1: '[b]Ingénieur Industriel[/b] avec plus de 15 ans au cœur de l\'entreprise — logistique, chaîne d\'approvisionnement et contrôle financier chez des sociétés comme [b]Holcim/Amrize[/b]. À un moment j\'ai arrêté d\'attendre que l\'IT construise ce dont le business avait besoin, et j\'ai commencé à le construire moi-même.',
       p2: 'Côté entreprise, je conçois et code des [b]intégrations SAP en C# et Python[/b], des pipelines de réconciliation financière, des tableaux de bord [b]Power BI[/b] et de l\'automatisation VBA qui élimine des centaines d\'heures manuelles par mois. Je travaille avec des DAF, contrôleurs et directeurs — je parle leur langage et livre en code.',
-      p3: 'Côté produit, je construis et déploie des applications full-stack en solo : [b]React, Next.js, Firebase, TypeScript[/b] — une PWA de livraison en temps réel active à Medellín, une plateforme d\'apprentissage des langues et un site corporate pour une organisation de 100+ membres. Pas des prototypes. Vrais utilisateurs, vraies données, vrai uptime.',
+      p3: 'Côté produit, je construis et déploie des applications full-stack en solo : [b]React, Next.js, Firebase, TypeScript[/b] — une PWA de livraison en temps réel active à Medellín, une plateforme d\'apprentissage des langues et un site corporate pour une organisation de 100+ membres. Pas des prototypes. Vrais utilisateurs, vraies données, vrai uptime. Je parle [b]français C1[/b] et [b]anglais B2[/b], ce qui me permet de travailler directement avec des équipes et clients internationaux.',
       cards: [
         { title: 'Automatisation Entreprise', desc: 'Pipelines Python, C# et VBA intégrés à SAP réduisant le travail manuel jusqu\'à 90%.' },
         { title: 'Systèmes Financiers',       desc: 'Automatisation de réconciliation end-to-end avec 100% de qualité des données. Je parle le langage du DAF.' },

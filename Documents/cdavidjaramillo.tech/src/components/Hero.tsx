@@ -90,6 +90,17 @@ export default function Hero() {
                 </div>
               ))}
             </div>
+
+            <div className="delay-4 flex flex-wrap gap-2 pt-4">
+              {h.langs.map(l => (
+                <span key={l.code}
+                  className="flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#2a2a2a] bg-[#111111] text-xs">
+                  <span>{l.flag}</span>
+                  <span className="text-[#9ca3af]">{l.name}</span>
+                  <span className="font-mono font-bold text-[#00d4ff]">{l.level}</span>
+                </span>
+              ))}
+            </div>
           </div>
 
           {/* Right — Photo */}
