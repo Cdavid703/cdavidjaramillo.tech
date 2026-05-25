@@ -19,7 +19,7 @@ const categoryIcons = [
     { name: 'VS Code',  icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg' },
   ],
   [
-    { name: 'SAP',      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sap/sap-original.svg' },
+    { name: 'SAP',      icon: 'https://cdn.simpleicons.org/sap/0FAAFF' },
     { name: 'Power BI', icon: 'https://img.icons8.com/color/48/power-bi.png' },
     { name: 'Excel',    icon: 'https://img.icons8.com/color/48/microsoft-excel-2019.png' },
     { name: 'VBA',      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualbasic/visualbasic-original.svg' },

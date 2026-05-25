@@ -103,7 +103,7 @@ export default function Hero() {
                     alt="David Jaramillo"
                     width={320}
                     height={320}
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-full object-cover object-center"
                     priority
                   />
                 </div>
