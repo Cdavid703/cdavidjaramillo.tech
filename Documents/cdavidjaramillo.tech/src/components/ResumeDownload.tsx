@@ -3,8 +3,8 @@ import { useLang } from '@/context/LangContext'
 
 const cvFiles: Record<string, string | null> = {
   es: '/cv/cv-es.pdf',
-  en: null, // replace with '/cv/cv-en.pdf' when available
-  fr: null, // replace with '/cv/cv-fr.pdf' when available
+  en: '/cv/cv-en.pdf',
+  fr: '/cv/cv-fr.pdf',
 }
 
 const flags: Record<string, string> = { es: '🇨🇴', en: '🇺🇸', fr: '🇫🇷' }
